@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles/styles.css" rel="stylesheet" media="all and (max-width: 1024px)">
+    <link rel="stylesheet" href="./styles/styles.css"/>
+    <title>Café</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="logo">
+        <a href="index.html">
+          <img
+            width="150"
+            height="115"
+            src="./assets/coffee-3513683_1281.webp"
+          alt="imagen flexbox"
+          />
+        </a>
+        <div class="nav">
+          <nav>
+            <ul>
+              <li><a href="#">Nosotros</a></li>
+              <li><a href="#">Servicios</a></li>
+              <li><a href="#tres">Contactanos</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner">
+      <h1>
+        Café
+      </h1>
+    </div>
+
+    <div>
+      <table class="tablaCategorias">
+        <tr>
+          <td class="cat">
+            <div class="boton_categorias">
+              <a href="#">Café</a>
+            </div>
+          </td>
+          <td class="cat">
+            <div class="boton_categorias">
+              <a href="#">Otras bebidas</a>
+            </div>
+          </td>
+          <td class="cat">
+            <div class="boton_categorias">
+              <a href="#">Sandwiches</a>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="especialidad">
+      <h2>Nuestra especialidad</h2>
+      <p>
+        Si disfrutas el Café, no puedes dejar de probar nuestro 
+        Cappuccino o Expresso, asi como los mejores acompañamientos como Galletas o Kekes especiales que tenemos para ti.
+      </p>
+    </div>
+
+    <div class="ubicacion">
+      <h1>Nuestras sucursales</h1>
+      <table>
+        <tr>
+          <td><h3>CHICÓ NORTE</h3></td>
+          <td>Carrera 14 # 97 - 63</td>
+        </tr>
+        <tr>
+          <td><h3>ALAMOS NORTE</h3></td>
+          <td>CC Diver Plaza Local 3-102</td>
+        </tr>
+       </table>
+    </div>
+    
+    <div>
+      <form action="mailto: correo@hotmail.com" method="get" enctype="text/plain">
+        <fieldset>
+            <h2><p id="tres">Contactanos</p></h2>
+             <ul>
+                  <li>
+                       <label id="Nombre" for="Nombre">Nombre/Apellido:</label>
+                       <input class="input" id="Nombre" type="text"required width="300px">
+                 </li>
+                 <li>
+                       <label id="correo" for="correo">Correo:</label>
+                       <input class="input" id="correo" type="text"required width="300px">
+                 </li>
+                 <li>
+                       <label id="telefono" for="telefono">Teléfono:</label>
+                       <input class="input" id="telefono" type="text" required width="300px">
+                 </li>
+                 <li>
+                  <label id="Mensaje" for="Mensaje">Mensaje:</label>
+                  <textarea class="input" id="Mensaje" name="Mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje..."></textarea>
+           </li>
+           <li>
+            <label for="Enviar"></label>
+            <button style="background-color: white ;" type="submit">Enviar</button>
+      </li>
+      <li>
+            <label for="reset"></label>
+            <input type="reset" value="Limpiar">
+       </li>
+                </ul>
+              </fieldset>
+           </form>
+           <script src="./styles/styles.js"></script>
+    </div>
+    <footer>
+      &copy; Desarrollada por el grupo Full Stack 2023 en BIT -
+      Bogotá Institute of Technology
+    </footer>
+  </body>
+</body>
+</html>

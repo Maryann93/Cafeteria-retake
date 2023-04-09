@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(180, 194, 221, 0);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content:flex-start;
+  }
+
+.header {
+    background: maroon;
+    width: 100%;
+    position: center;
+    z-index: 100;
+}
+
+nav {
+  float: left;
+  
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+  
+  
+}
+
+nav ul li {
+  float: left;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 35px;
+  margin-left: 110px;
+  width: 220px;
+  height: 100px;
+  margin: center; 
+  
+}
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  
+}
+nav ul li:hover {
+  background: #dfd6c7;
+}
+/*.flex-container {
+padding: 10px;  
+border: 1 px solid brown;
+background-color: maroon;
+width: 100%;
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}*/
+
+.banner {
+  background-image: url(../assets/fondo.jpg);
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: maroon;
+}
+
+.banner h1 {
+  text-align:right;
+  font-size: 80px;
+  padding: 10px 50px;
+}
+/** 
+La clase "tablaCategorias" se aplica a un elemento "tablaCategorias" y establece el ancho automático y el margen centrado.
+*/
+.tablaCategorias {
+  width: auto;
+  margin: auto;
+}
+/** 
+La clase "cat" se aplica a un elemento "cat" y agrega un relleno de 50 píxeles.
+*/
+.cat {
+  padding: 50px;
+}
+/** 
+La clase "boton_categorias" se aplica a un elemento "boton_categorias" y establece el tamaño, el color de fondo, el borde redondeado, el tamaño de la fuente, el margen, el relleno, la altura de la línea, el alineamiento del texto y el flotamiento.
+*/
+.boton_categorias {
+  width: 80px;
+  height: 80px;
+  background-color:maroon;
+  border-radius:100px;
+  font-size: 11px;
+  margin: 5px;
+  padding: 10px;
+  line-height: 45px;
+  text-align: center;
+  float: left;
+}
+/** 
+
+*/
+.boton_categorias:hover {
+  opacity: 0.9;
+}
+/** 
+
+*/
+.boton_categorias a {
+  text-decoration: none;
+  color: white;
+  padding: 50px 5px 5px 5px;
+}
+
+
+.especialidad {
+  background-image: url(../assets/cafe.png);
+  color: black;
+  padding: 20px 100px 70px 100px;
+  text-align:left;
+  font-family:'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 35px;
+}
+
+.especialidad h2 {
+  text-align: left;
+  padding: 15px;
+}
+
+.especialidad p {
+  text-align:initial;
+  padding: 10px;
+  
+}
+
+.ubicacion {
+
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+.ubicacion table {
+  padding: 30px 100px 30px 100px;
+}
+
+.ubicacion h2 {
+  padding: 30px 0px;
+}
+
+.ubicacion h3 {
+  background-color: maroon;
+  border: none;
+  text-align: center;
+  padding: 15px 30px 15px 30px;
+  margin: 60px;
+}
+
+.ubicacion td {
+  text-align: left;
+}
+
+/*FORMULARIO CON LA UL Y LAS LI*/
+form, form ul{display: flex;
+  flex-direction: column;
+  justify-content: start;
+  color: #fff;
+  align-items: center;padding: 25px 0px 0px;gap: 28px;}
+  form ul {display: flex;flex-direction: column;
+  justify-content: center;align-items: center;gap: 28px;}
+  form li {display: flex;flex-direction: column;justify-content: center;gap:12px}
+  
+  /*CLASS INPUT*/
+  .input{width: 400px;background-color: rgb(255, 255, 255);}
+  
+  /*CLASS CHECKBOX*/
+  .checkbox{display: flex;justify-content: start;gap: 12px;}
+  
+  /*MENSAJE DEL TEXTAREA*/
+  textarea{width: 400px;height: 200px;background-color: rgb(199, 189, 189);}
+  
+  /*FIELDSET Y EL SPAN*/
+  fieldset{border: 4px solid whitesmoke;background: maroon;}
+  span{color: wheat;}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px 100px 70px 100px;
+}
+
+@media screen and (min-width: 400px)  {}
+@media screen and (min-width: 600px)  {}
+@media screen and (min-width: 1000px) {}
+@media screen and (min-width: 1400px) {}
+@import url(styles.css) all and (max-width: 1024px) 
